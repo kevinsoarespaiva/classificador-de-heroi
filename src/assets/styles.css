@@ -72,8 +72,15 @@ main{
 /* </main> */
 /* <footer> */
 footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     min-height: 20vh;
     background-color: rgb(174, 255, 248);
+}
+#foot{
+    width: fit-content;
 }
 /* </footer> */
 /* </body> */
