@@ -1,0 +1,47 @@
+/* <head> */
+body{
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+a{
+    color: inherit;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+h3{
+    font-size: 1.5rem;
+    text-transform: uppercase; 
+} 
+/* </head> */
+/* <body> */
+/* <header> */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-height: 20vh;
+    background-color: rgb(255, 152, 104);
+}
+/* </header> */
+/* <main> */
+main{
+    min-height: 60vh;
+    background-color: rgb(252, 246, 193);
+}
+/* </main> */
+/* <footer> */
+footer{
+    min-height: 20vh;
+    background-color: rgb(174, 255, 248);
+}
+/* </footer> */
+/* </body> */
