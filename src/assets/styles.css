@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
 /* <head> */
 body{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Merienda, 'Times New Roman', serif;
     box-sizing: border-box;
+    background-image: url(../images/background-hero.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: white 1px  1px 5px;
 }
 a{
     color: inherit;
@@ -33,7 +38,7 @@ header{
     align-items: center;
     width: 100vw;
     min-height: 20vh;
-    background-color: rgb(255, 152, 104);
+    text-align: center;
 }
 /* </header> */
 /* <main> */
@@ -42,8 +47,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 60vh;
-    background-color: rgb(252, 246, 193);
+    min-height: 70vh;
 }
 .content{
     text-align: center;
@@ -67,7 +71,17 @@ main{
     padding: 5px;
 }
 #data button{
-    margin: auto;    
+    margin: auto; 
+    background-color: rgba(179, 179, 180, 0.775);
+}
+.position{
+    width: inherit;
+    display: flex;
+    justify-content: center;
+}
+.field{
+    width: 90%;
+    background-color: rgba(179, 179, 180, 0.775);
 }
 /* </main> */
 /* <footer> */
@@ -76,11 +90,11 @@ footer{
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-height: 20vh;
-    background-color: rgb(174, 255, 248);
+    min-height: 10vh;
 }
 #foot{
     width: fit-content;
+    /* color: white; */
 }
 /* </footer> */
 /* </body> */
