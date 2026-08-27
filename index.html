@@ -22,11 +22,13 @@
                 <h3>
                     avalie aqui
                 </h3>
-                <form autocomplete="off">
+                <form autocomplete="off" id="hero-form">
                     <p><label for="hero-name">Nome do herói: </label><input class="field" type="text" id="hero-name" placeholder="insira o nome" required maxlength="40"></p>
                     <p><label for="hero-xp">Quantidade de XP atual: </label><input class="field" type="number" id="hero-xp" min="0" placeholder="XP" required></p>
                     <div class="position"><button type="submit">Classificar</button></div> 
                 </form>
+                <div class="hidden" id="response">
+                </div>
             </div>
         </div>
     </main>
@@ -35,5 +37,6 @@
             <h4>made by <a href="https://github.com/kevinsoarespaiva" target="_blank">Kevin Soares</a></h4>
         </div>
     </footer>
+    <script defer src="./src/engine/engine.js"></script>
 </body>
 </html>
