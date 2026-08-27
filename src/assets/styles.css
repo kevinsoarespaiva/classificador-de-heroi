@@ -29,6 +29,9 @@ h3{
     text-transform: uppercase; 
     width: fit-content;
 } 
+.hidden{
+    display: none;
+}
 /* </head> */
 /* <body> */
 /* <header> */
